@@ -131,6 +131,7 @@
             this.btnSuspend.TabIndex = 8;
             this.btnSuspend.Text = "Suspend";
             this.btnSuspend.UseVisualStyleBackColor = true;
+            this.btnSuspend.Click += new System.EventHandler(this.btnSuspend_Click);
             // 
             // btnResume
             // 
@@ -142,6 +143,7 @@
             this.btnResume.TabIndex = 9;
             this.btnResume.Text = "Resume";
             this.btnResume.UseVisualStyleBackColor = true;
+            this.btnResume.Click += new System.EventHandler(this.btnResume_Click);
             // 
             // btnAbort
             // 
@@ -153,6 +155,7 @@
             this.btnAbort.TabIndex = 10;
             this.btnAbort.Text = "Abort";
             this.btnAbort.UseVisualStyleBackColor = true;
+            this.btnAbort.Click += new System.EventHandler(this.btnAbort_Click);
             // 
             // btnCopy
             // 
@@ -163,6 +166,7 @@
             this.btnCopy.TabIndex = 11;
             this.btnCopy.Text = "Copy";
             this.btnCopy.UseVisualStyleBackColor = true;
+            this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
             // 
             // Form1
             // 
